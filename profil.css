@@ -1,0 +1,45 @@
+body {
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+
+.profile-container {
+background-color: #F0FFFF;
+padding: 30px;
+border-radius: 12px;
+box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+width: 300px;
+text-align: left;
+}
+
+
+.info-label {
+width : 100px;
+display : inline-block;
+color : #333;
+font-weight:bold;
+}
+
+
+a {
+display: inline-block;
+background-color: #C8A2C8;
+color: #ffffff;
+padding:10px 20px;
+border-radius: 5px;
+margin-top: 10px;
+text-decoration: none;
+}
+
+
+a: hover {
+background-color: #0056b3;
+}
+
+.profil-info {
+line-height: 1.8px;
+color: #555;
+margin-bottom: 10px;
+}
